@@ -48,10 +48,10 @@ Compiling
 
 Each of these files are compiled differently.
 
-     	myZdotc
-     	=======
+     	myZdotc.cu
+     	==========
 
-
+	nvcc -arch=sm_35 -rdc=true myZdotc.cu -lcudadevrt
 	
 	thrustDotProduct	
 	================
